@@ -15,13 +15,13 @@
         "titleFont": "Roboto",
         "subtitleFont": "Roboto",
         "textFont": "Roboto",
-        "isRoundedButtons": true,
+        "isRoundedButtons": false,
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true
       }
     },
     "versionFirst": "3.10.7",
-    "uniqCompNum": 30,
+    "uniqCompNum": 33,
     "versionPublish": "3.11.1",
     "path": "@PROJECT_PATH@",
     "favicon": "",
@@ -63,22 +63,22 @@
               "font-family": "'Roboto', sans-serif"
             },
             ".link": {
-              "font-size": "0.85rem"
+              "font-size": "0.9rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.921rem"
+              "font-size": "0.975rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#b3b3b3"
+              "background": "#e6e6e6"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#c4c4c4!important"
+              "background": "#f7f7f7!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#cccccc"
+              "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
               "color": "#000000",
@@ -100,8 +100,8 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-1",
           "_params": {
-            "bgColor": "#cccccc",
-            "fontSize": "0.85",
+            "bgColor": "#ffffff",
+            "fontSize": "0.9",
             "fontName": {
               "name": "Roboto",
               "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
@@ -119,10 +119,12 @@
           "logo": {
             "image": {
               "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
+              "src": "@PROJECT_PATH@/assets/images/signature-384x128.png",
               "height": 128,
               "alt": "Mobirise",
-              "link": "https://mobirise.com"
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
             },
             "iconFont": {
               "class": "mbr-iconfont mbr-iconfont-menu",
@@ -131,7 +133,36 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">INTRODUCTION</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">APPLICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Adobe Photoshop\">ADOBE PHOTOSHOP</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OFFICE SUITE</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office Word\">WORD&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office PowerPoint\">POWERPOINT</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE ILLUSTRATOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE PREMIERE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE DREAM WEAVER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">FINAL CUT PRO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">123D</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">INDUSTRY CERTIFICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED PHOTOSHOP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED ILLUSTROTOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">TRANSCRIPT</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">REFRENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">MR. PATE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">AP TEACHERS</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"Contact\">Contact</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">INTRODUCTION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">APPLICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Adobe Photoshop\">ADOBE PHOTOSHOP</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OFFICE SUITE</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office Word\">WORD&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office PowerPoint\">POWERPOINT</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE ILLUSTRATOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE PREMIERE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE DREAM WEAVER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">FINAL CUT PRO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">123D</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">INDUSTRY CERTIFICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED PHOTOSHOP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED ILLUSTROTOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">TRANSCRIPT</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">REFRENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">MR. PATE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">AP TEACHERS</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"Contact\">Contact</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-w",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false
+          },
+          "title": "Melissa Lopez",
+          "text": "Cl",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
           "_inherit": "msg-box5",
@@ -154,7 +185,7 @@
           "_name": "msg-box6",
           "_anchor": "msg-box6-e",
           "_params": {
-            "imageSize": 50,
+            "imageSize": "38",
             "paddingTop": "5",
             "paddingBottom": "4",
             "parallax": true,
@@ -192,9 +223,9 @@
               "size": 250
             }
           },
-          "title": "biography",
-          "text": "ya",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"index.html#content7-g\" data-toolbar=\"-mbrBtnMove\">Continuation</a>"
+          "title": "A Bit About Me!",
+          "text": "While back ago, in secondary school, I came across the idea of designing through a technological deivce. it seemed like a cool way to entertain myself, so I downloaded a few apps to practice. When it was time to transition into middle school I signed up for a digital design magnet school, Miami Arts Studio. i soon got the letter and found out I got in. My interest for digital design grew bigger over time and i learned more and more each day. Its now two years later and I love drawing digitally and desgining websites, just like this one.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-secondary\" href=\"index.html#content6-v\" data-toolbar=\"-mbrBtnMove\">Continuation</a>"
         },
         {
           "_styles": {
@@ -210,25 +241,39 @@
           "_params": {
             "paddingTop": "3",
             "paddingBottom": "0",
-            "bgColor": "#efefef",
+            "bgColor": "#cccccc",
             "showMeta": true
           },
           "title": "Goals",
           "meta": ""
         },
         {
+          "_inherit": "features4",
           "_tags": [
             "Theme"
           ],
-          "_name": "features3",
-          "_anchor": "features3-f",
+          "_styles": {
+            ".card-subtitle": {
+              "color": "#bcbcbc"
+            },
+            ".iconbox": {
+              "background-color": "@primaryColor",
+              "border-color": "@primaryColor"
+            },
+            "P": {
+              "text-align": "left"
+            }
+          },
+          "_name": "features7",
+          "_anchor": "features7-u",
           "_params": {
-            "paddingTop": "1",
+            "iconsBgColor": "@primaryColor",
+            "paddingTop": 2,
             "paddingBottom": "1",
             "bgImageRadio": false,
             "parallax": true,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#efefef",
+            "bgColor": "#cccccc",
             "bgColorRadio": true,
             "bgVideo": {
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
@@ -237,67 +282,86 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "columns": "4",
-            "showImages": false,
+            "columns": 4,
+            "showImages": true,
             "showTitles": true,
             "showSubtitles": false,
             "ShowTexts": true,
             "showButtons": false
           },
           "media1": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/table.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "phone",
+              "family": "et-line",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ff00d2"
             }
           },
-          "title1": "D3",
+          "title1": "Digital Designer",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "Bootstrap 4 has been noted as one of the most reliable and proven frameworks and Mobirise has been equipped to develop websites using this framework.",
+          "caption1": "STill alive<br><br>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "hearth",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ff00d2"
             }
           },
-          "title2": "Responsive",
+          "title2": "Nurse",
           "subtitle2": "One of Bootstrap 4's big points",
-          "caption2": "One of Bootstrap 4's big points is responsiveness and Mobirise makes effective use of this by generating highly responsive website for you.",
+          "caption2": "Helping poeple is the main thing I'm passionate about. Seeing that there are multiple people around the globe that need all kinds of support makes me want to do something in any way to give that back. Human in need deserve just about as much as we do, the support and care that we have or want, I want to be able to give that to them. To help anyone you do not need to go around the world, searching, or have a plethora of cash to pay, by just working in a hosipital, very big or very small, I are helping those who come to. I want to be the one they seek for when they have an injury that needs to be wrapped or just for a simple check-up.&nbsp;",
           "button2": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media3": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/coworkers.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "camera",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ff00d2"
             }
           },
-          "title3": "t",
+          "title3": "Photography",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "Google has a highly exhaustive list of fonts compiled into its web font platform and Mobirise makes it easy for you to use them on your website easily and freely.",
+          "caption3": "V cant see",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/code-man.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "linkInNewWindow": false,
+              "name": "briefcase",
+              "family": "MobiriseIcons",
+              "active": true,
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#ff00d2"
             }
           },
-          "title4": "Photography",
+          "title4": "World Traveler",
           "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Mobirise gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.",
+          "caption4": "Since I was little I would travel around the United States of America. Very few times have I been outside the country, however the feeling of seeing new things and tasting new food from around the globe is a new experience every time I enter the next place. You get to view different cultures, as each is unique in its own way. Going on a car ride to the next state right above your home, I get to view nature within itself and the difference between each place. I get a new feeling within eachplace, not just by the weather or the sight but by the people living and the the way that each person is unquie in its home. I get to become a part the city whenever I visit a new country or state or city.",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/windows-books.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
             }
           },
           "title5": "Trendy Website Blocks",
@@ -305,11 +369,14 @@
           "caption5": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
           "button5": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media6": {
-            "image": {
-              "src": "@THEME_PATH@/components/_images/gallery/room-laptop.jpg",
-              "class": "card-img-top",
-              "width": 600,
-              "active": true
+            "iconFont": {
+              "active": true,
+              "class": "mbr-iconfont mbr-iconfont-features7",
+              "name": "linegraph",
+              "link": "https://mobirise.com",
+              "size": 0,
+              "color": "#fff",
+              "family": "et-line"
             }
           },
           "title6": "Host Anywhere",
@@ -331,24 +398,25 @@
           "_params": {
             "paddingTop": "2",
             "paddingBottom": "0",
-            "bgColor": "#efefef",
+            "bgColor": "#cccccc",
             "showMeta": true
           },
-          "title": "Biography",
+          "title": "More About Me",
           "meta": ""
         },
         {
           "_tags": [
             "Theme"
           ],
-          "_name": "content1",
-          "_anchor": "content1-t",
+          "_name": "content6",
+          "_anchor": "content6-v",
           "_params": {
             "paddingTop": "2",
-            "paddingBottom": "4",
-            "bgColor": "#efefef"
+            "paddingBottom": "2",
+            "bgColor": "#cccccc"
           },
-          "text": "<p>Th</p>"
+          "text1": "While back ago, in secondary school, I came across the idea of designing through a technological deivce. it seemed like a cool way to entertain myself, so I downloaded a few apps to practice. When it was time to transition into middle school I signed up for a digital design magnet school, Miami Arts Studio. i soon got the letter and found out I got in. My interest for digital design grew bigger over time and i learned more and more each day. Its now two years later and I love drawing digitally and desgining websites.",
+          "text2": "<p>M</p>"
         },
         {
           "_tags": [
@@ -431,22 +499,22 @@
               "font-family": "'Roboto', sans-serif"
             },
             ".link": {
-              "font-size": "0.85rem"
+              "font-size": "1rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.921rem"
+              "font-size": "1.083rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#b3b3b3"
+              "background": "#e6e6e6"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#c4c4c4!important"
+              "background": "#f7f7f7!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#cccccc"
+              "background": "#ffffff"
             },
             ".bg-color.transparent .link": {
               "color": "#000000",
@@ -468,8 +536,8 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-5",
           "_params": {
-            "bgColor": "#cccccc",
-            "fontSize": "0.85",
+            "bgColor": "#ffffff",
+            "fontSize": "0.9",
             "fontName": {
               "name": "Roboto",
               "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
@@ -499,7 +567,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">INTRODUCTION</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">APPLICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Adobe Photoshop\">ADOBE PHOTOSHOP</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OFFICE SUITE</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office Word\">WORD&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office PowerPoint\">POWERPOINT</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE ILLUSTRATOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE PREMIERE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE DREAM WEAVER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">FINAL CUT PRO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">123D</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">INDUSTRY CERTIFICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED PHOTOSHOP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED ILLUSTROTOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">TRANSCRIPT</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">REFRENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">MR. PATE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">AP TEACHERS</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"Contact\">Contact</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">INTRODUCTION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">APPLICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Adobe Photoshop\">ADOBE PHOTOSHOP</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OFFICE SUITE</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office Word\">WORD&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office PowerPoint\">POWERPOINT</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE ILLUSTRATOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE PREMIERE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE DREAM WEAVER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">FINAL CUT PRO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">123D</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">INDUSTRY CERTIFICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED PHOTOSHOP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED ILLUSTROTOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">TRANSCRIPT</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">REFRENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">MR. PATE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">AP TEACHERS</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"Contact\">Contact</a></li>"
         },
         {
           "_tags": [
@@ -682,8 +750,8 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-6",
           "_params": {
-            "bgColor": "#cccccc",
-            "fontSize": "0.85",
+            "bgColor": "#ffffff",
+            "fontSize": "0.9",
             "fontName": {
               "name": "Roboto",
               "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
@@ -713,7 +781,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">INTRODUCTION</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">APPLICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Adobe Photoshop\">ADOBE PHOTOSHOP</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OFFICE SUITE</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office Word\">WORD&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office PowerPoint\">POWERPOINT</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE ILLUSTRATOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE PREMIERE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE DREAM WEAVER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">FINAL CUT PRO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">123D</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">INDUSTRY CERTIFICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED PHOTOSHOP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED ILLUSTROTOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">TRANSCRIPT</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">REFRENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">MR. PATE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">AP TEACHERS</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"Contact\">Contact</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">INTRODUCTION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">APPLICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Adobe Photoshop\">ADOBE PHOTOSHOP</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OFFICE SUITE</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office Word\">WORD&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office PowerPoint\">POWERPOINT</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE ILLUSTRATOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE PREMIERE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE DREAM WEAVER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">FINAL CUT PRO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">123D</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">INDUSTRY CERTIFICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED PHOTOSHOP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED ILLUSTROTOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">TRANSCRIPT</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">REFRENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">MR. PATE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">AP TEACHERS</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"Contact\">Contact</a></li>"
         },
         {
           "_tags": [
@@ -846,8 +914,8 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-7",
           "_params": {
-            "bgColor": "#cccccc",
-            "fontSize": "0.85",
+            "bgColor": "#ffffff",
+            "fontSize": "0.9",
             "fontName": {
               "name": "Roboto",
               "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
@@ -877,7 +945,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">INTRODUCTION</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">APPLICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Adobe Photoshop\">ADOBE PHOTOSHOP</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OFFICE SUITE</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office Word\">WORD&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office PowerPoint\">POWERPOINT</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE ILLUSTRATOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE PREMIERE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE DREAM WEAVER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">FINAL CUT PRO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">123D</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">INDUSTRY CERTIFICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED PHOTOSHOP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED ILLUSTROTOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">TRANSCRIPT</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">REFRENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">MR. PATE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">AP TEACHERS</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"Contact\">Contact</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">INTRODUCTION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">APPLICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Adobe Photoshop\">ADOBE PHOTOSHOP</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OFFICE SUITE</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office Word\">WORD&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office PowerPoint\">POWERPOINT</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE ILLUSTRATOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE PREMIERE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE DREAM WEAVER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">FINAL CUT PRO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">123D</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">INDUSTRY CERTIFICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED PHOTOSHOP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED ILLUSTROTOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">TRANSCRIPT</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">REFRENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">MR. PATE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">AP TEACHERS</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"Contact\">Contact</a></li>"
         }
       ]
     },
@@ -948,8 +1016,8 @@
           "_name": "ext.menu",
           "_anchor": "ext_menu-p",
           "_params": {
-            "bgColor": "#cccccc",
-            "fontSize": "0.85",
+            "bgColor": "#ffffff",
+            "fontSize": "0.9",
             "fontName": {
               "name": "Roboto",
               "url": "https://fonts.googleapis.com/css?family=Roboto:400,300,700",
@@ -979,7 +1047,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">INTRODUCTION</a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">APPLICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Adobe Photoshop\">ADOBE PHOTOSHOP</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OFFICE SUITE</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office Word\">WORD&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office PowerPoint\">POWERPOINT</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE ILLUSTRATOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE PREMIERE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE DREAM WEAVER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">FINAL CUT PRO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">123D</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">INDUSTRY CERTIFICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED PHOTOSHOP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED ILLUSTROTOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">TRANSCRIPT</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">REFRENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">MR. PATE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">AP TEACHERS</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"Contact\">Contact</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"index.html\" aria-expanded=\"false\">INTRODUCTION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">APPLICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Adobe Photoshop\">ADOBE PHOTOSHOP</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OFFICE SUITE</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office Word\">WORD&nbsp;</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office PowerPoint\">POWERPOINT</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE ILLUSTRATOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE PREMIERE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE DREAM WEAVER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">FINAL CUT PRO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">123D</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">INDUSTRY CERTIFICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED PHOTOSHOP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED ILLUSTROTOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">TRANSCRIPT</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">REFRENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">MR. PATE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">AP TEACHERS</a></div></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-black-outline btn-black\" href=\"Contact\">Contact</a></li>"
         },
         {
           "_tags": [
