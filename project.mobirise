@@ -152,9 +152,9 @@
               "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
             },
             "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#000",
+            "overlay": true,
+            "overlayOpacity": "0.5",
+            "overlayColor": "#efefef",
             "contentAlign": "center",
             "showTitle": true,
             "showText": false,
@@ -165,7 +165,7 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>",
           "_styles": {
             ".mbr-section-title": {
-              "color": "#000000",
+              "color": "#3b3b3b",
               "font-family": "'Indie Flower', cursive",
               "googleLink": "https://fonts.googleapis.com/css?family=Indie+Flower",
               "font-size": "100px"
