@@ -1,7 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Indie+Flower);
-@import url(https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700);
-
 
 
 
@@ -118,8 +116,8 @@ h6,
   border-color: #ff1ed8 !important;
 }
 .btn-secondary {
-  background-color: #ff6ae5;
-  border-color: #ff6ae5;
+  background-color: #000000;
+  border-color: #000000;
   color: #ffffff;
 }
 .btn-secondary:hover,
@@ -128,14 +126,14 @@ h6,
 .btn-secondary:active,
 .btn-secondary.active {
   color: #ffffff;
-  background-color: #ff1ed8;
-  border-color: #ff1ed8;
+  background-color: #000000;
+  border-color: #000000;
 }
 .btn-secondary.disabled,
 .btn-secondary:disabled {
   color: #ffffff !important;
-  background-color: #ff1ed8 !important;
-  border-color: #ff1ed8 !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 .btn-info {
   background-color: #7e9b9f;
@@ -239,8 +237,8 @@ h6,
 }
 .btn-secondary-outline {
   background: none;
-  border-color: #ff04d3;
-  color: #ff04d3;
+  border-color: #000000;
+  color: #000000;
 }
 .btn-secondary-outline:hover,
 .btn-secondary-outline:focus,
@@ -248,14 +246,14 @@ h6,
 .btn-secondary-outline:active,
 .btn-secondary-outline.active {
   color: #ffffff;
-  background-color: #ff6ae5;
-  border-color: #ff6ae5;
+  background-color: #000000;
+  border-color: #000000;
 }
 .btn-secondary-outline.disabled,
 .btn-secondary-outline:disabled {
   color: #ffffff !important;
-  background-color: #ff6ae5 !important;
-  border-color: #ff6ae5 !important;
+  background-color: #000000 !important;
+  border-color: #000000 !important;
 }
 .btn-info-outline {
   background: none;
@@ -481,15 +479,10 @@ h6,
 #ext_menu-1 .btn {
   font-size: 18px;
 }
-#header1-w .mbr-section-title {
+#header1-10 .mbr-section-title {
   color: #4d4b4b;
   font-family: 'Indie Flower', cursive;
   font-size: 84px;
-  text-align: center;
-}
-#header1-w .mbr-section-lead {
-  color: #000000;
-  font-family: 'Roboto Condensed', sans-serif;
 }
 #msg-box6-y .mbr-section-title,
 #msg-box6-y .lead p {
