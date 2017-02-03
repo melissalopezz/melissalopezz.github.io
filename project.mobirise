@@ -168,7 +168,7 @@
             "bgVideoRadio": false,
             "overlay": true,
             "overlayOpacity": "0.2",
-            "overlayColor": "#ff6ae5",
+            "overlayColor": "#ff86ea",
             "contentAlign": "left",
             "showTitle": true,
             "showText": false,
@@ -191,7 +191,7 @@
           "_name": "msg-box6",
           "_anchor": "msg-box6-y",
           "_params": {
-            "imageSize": 50,
+            "imageSize": "31",
             "paddingTop": "3",
             "paddingBottom": "3",
             "parallax": true,
@@ -209,13 +209,17 @@
             "inverse": true,
             "showTitle": true,
             "showText": true,
-            "showButtons": false
+            "showButtons": true
           },
           "media": {
             "image": {
               "active": true,
               "width": 1400,
-              "src": "@THEME_PATH@/components/_images/desert.jpg"
+              "src": "@PROJECT_PATH@/assets/images/img-1400x2481.jpg",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
             },
             "video": {
               "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
@@ -230,8 +234,8 @@
             }
           },
           "title": "A Little About Me...",
-          "text": "This is an intro with beautiful background video and image on the left side.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+          "text": "While back ago, in secondary school, I came across the idea of designing through a technological device. it seemed like a cool way to entertain myself, so I downloaded a few apps to practice. When it was time to transition into middle school, I signed up for a magnet school, Miami Arts Studio. I soon got the letter and found out I got in. My interest for digital design grew bigger over time and I learned more and more each day. Its now two years later and I love drawing digitally and desgining websites, just like this one.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#content6-v\" data-toolbar=\"-mbrBtnMove\">CONTINUED<br></a>"
         },
         {
           "_styles": {
@@ -312,7 +316,7 @@
           },
           "title1": "Digital Designer",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "I've been drawing digitally since 5th grade. i've always enjoyed it and as it may be what im currently studyingin middle school I also enjoy it as a hobby.&nbsp;<br><br>",
+          "caption1": "I've been drawing digitally since 5th grade. I've always enjoyed it and as it may be what im currently studyinging middle school I also enjoy it as a hobby.&nbsp;<br><br>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "iconFont": {
@@ -344,7 +348,7 @@
           },
           "title3": "Photography",
           "subtitle3": "Google has a highly exhaustive list of fonts",
-          "caption3": "I enjoy taking pictures and sharing them. studying phtography and larning to take proper pictures is a big goal for me in the furture. i would love to travel around the world and take pictures of all my sightnening.&nbsp;",
+          "caption3": "I enjoy taking pictures and sharing them. Studying phtography in the future and learning more on how to take them is a big goal for me in the furture. I would love to travel around the world and take pictures of all my sightnening.",
           "button3": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media4": {
             "iconFont": {
