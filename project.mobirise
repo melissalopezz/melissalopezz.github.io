@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "intro.html",
     "name": "Portfolio Website",
     "theme": {
       "name": "mobirise3",
@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10.7",
-    "uniqCompNum": 86,
+    "uniqCompNum": 88,
     "versionPublish": "3.11.1",
     "path": "@PROJECT_PATH@",
     "favicon": "",
@@ -179,17 +179,26 @@
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
         },
         {
+          "_inherit": "msg-box8",
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#000"
+            },
+            ".mbr-section-title": {
+              "color": "#403f3f"
+            }
+          },
           "_tags": [
             "Theme"
           ],
-          "_name": "msg-box1",
-          "_anchor": "msg-box1-2d",
+          "_name": "msg-box3",
+          "_anchor": "msg-box3-2e",
           "_params": {
-            "paddingTop": "1",
+            "paddingTop": "2",
             "paddingBottom": "1",
-            "bgImageRadio": false,
             "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
             "bgColor": "#cccccc",
             "bgColorRadio": true,
             "bgVideo": {
@@ -199,20 +208,33 @@
             "overlay": false,
             "overlayOpacity": 0.5,
             "overlayColor": "#222",
-            "inverse": false,
-            "showButtons": true,
+            "showTitle": true,
             "showText": false,
-            "showTitle": true
+            "showButton": true
           },
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"bio.html\" data-toolbar=\"-mbrBtnMove\">Enter</a>",
-          "text": ".",
-          "title": "My Past Present and Future...",
+          "title": "My Past, Present and Future...",
+          "text": "",
+          "button": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">Enter</a>"
+        },
+        {
           "_styles": {
-            "H3": {
-              "font-size": "48px",
-              "color": "#414141"
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
             }
-          }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-2f",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "Some of My Previous Work&nbsp;",
+          "meta": "By Melissa Lopez"
         },
         {
           "_tags": [
@@ -457,7 +479,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/melissa-lopez-composite-jpeg-2000x2103-800x841.jpg",
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-composite-jpeg-2000x21030.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-composite-jpeg-2000x21033.jpg",
                 "caption": "A recreation of the Avengers...",
                 "active": false
               },
@@ -487,7 +509,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/logo-color-jpeg-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/logo-color-jpeg-2000x20001.jpg",
+                "image": "@PROJECT_PATH@/assets/images/logo-color-jpeg-2000x20004.jpg",
                 "caption": "An edit for the MDCPS Logo Contest...",
                 "active": false
               },
@@ -497,7 +519,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/melissa-lopez-album-cover-jpeg-2000x1000-800x400.jpg",
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-album-cover-jpeg-2000x10002.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-album-cover-jpeg-2000x10005.jpg",
                 "caption": "An edit for the front of a redord label...",
                 "active": false
               },
@@ -1612,7 +1634,7 @@
           },
           "title": "Life of a Dreamer",
           "text": "While back ago, in secondary school, I came across the idea of designing through a technological device. it seemed like a cool way to entertain myself, so I downloaded a few apps to practice. When it was time to transition into middle school, I signed up for a magnet school, Miami Arts Studio. I soon got the letter and found out I got in. My interest for digital design grew bigger over time and I learned more and more each day. Its now two years later and I love drawing digitally and desgining websites, just like this one.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"index.html#content6-v\" data-toolbar=\"-mbrBtnMove\">CONTINUED<br></a>"
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"intro.html#features7-25\" data-toolbar=\"-mbrBtnMove\">CONTINUED<br></a>"
         },
         {
           "_styles": {

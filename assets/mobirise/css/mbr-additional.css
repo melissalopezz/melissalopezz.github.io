@@ -496,9 +496,16 @@ h6,
   font-size: 22px;
   font-family: 'Indie Flower', cursive;
 }
-#msg-box1-2d H3 {
-  font-size: 48px;
-  color: #414141;
+#msg-box3-2e .mbr-section-title,
+#msg-box3-2e p {
+  color: #000;
+}
+#msg-box3-2e .mbr-section-title {
+  color: #403f3f;
+}
+#header3-2f .mbr-section-title,
+#header3-2f .mbr-section-subtitle {
+  text-align: center;
 }
 #contacts1-h P {
   color: #000000;
