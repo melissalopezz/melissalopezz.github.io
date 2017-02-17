@@ -22,7 +22,7 @@
     },
     "versionFirst": "3.10.7",
     "uniqCompNum": 66,
-    "versionPublish": "3.10.7",
+    "versionPublish": "3.11.1",
     "path": "@PROJECT_PATH@",
     "favicon": "",
     "noImageResize": "",
@@ -844,6 +844,16 @@
             "Theme"
           ],
           "_name": "contacts4",
+          "_styles": {
+            "P": {
+              "color": "#ffffff",
+              "font-size": "15px"
+            },
+            "STRONG": {
+              "color": "#ffffff",
+              "font-size": "18px"
+            }
+          },
           "_anchor": "contacts4-1k",
           "_params": {
             "paddingTop": "4",
@@ -887,17 +897,7 @@
               }
             }
           },
-          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact Me</a>",
-          "_styles": {
-            "P": {
-              "color": "#ffffff",
-              "font-size": "15px"
-            },
-            "STRONG": {
-              "color": "#ffffff",
-              "font-size": "18px"
-            }
-          }
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-black\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove,-mbrBtnRemove\">Contact Me</a>"
         }
       ]
     },
