@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "intro.html",
     "name": "Portfolio Website",
     "theme": {
       "name": "mobirise3",
@@ -551,7 +551,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/melissa-lopez-composite-jpeg-2000x2103-800x841.jpg",
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-composite-jpeg-2000x21033.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-composite-jpeg-2000x21036.jpg",
                 "caption": "A recreation of the Avengers...",
                 "active": false
               },
@@ -581,7 +581,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/logo-color-jpeg-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/logo-color-jpeg-2000x20004.jpg",
+                "image": "@PROJECT_PATH@/assets/images/logo-color-jpeg-2000x20007.jpg",
                 "caption": "An edit for the MDCPS Logo Contest...",
                 "active": false
               },
@@ -591,7 +591,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/melissa-lopez-album-cover-jpeg-2000x1000-800x400.jpg",
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-album-cover-jpeg-2000x10005.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-album-cover-jpeg-2000x10008.jpg",
                 "caption": "An edit for the front of a redord label...",
                 "active": false
               },
@@ -1617,7 +1617,7 @@
           },
           "title1": "Photo Manipulation",
           "subtitle1": "Bootstrap 4 has been noted",
-          "caption1": "W<br><br>",
+          "caption1": "I found my interest for editng pictures right before applying for middle school. I am currently studying technology production for my middle school years. i find photo manipulation intersting as a hobby and maybe soemthing to study further into the subject.&nbsp;<br><br>",
           "button1": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media2": {
             "iconFont": {
