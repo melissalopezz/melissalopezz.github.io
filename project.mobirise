@@ -551,7 +551,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/melissa-lopez-composite-jpeg-2000x2103-800x841.jpg",
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-composite-jpeg-2000x21036.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-composite-jpeg-2000x21039.jpg",
                 "caption": "A recreation of the Avengers...",
                 "active": false
               },
@@ -581,7 +581,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/logo-color-jpeg-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/logo-color-jpeg-2000x20007.jpg",
+                "image": "@PROJECT_PATH@/assets/images/logo-color-jpeg-2000x200010.jpg",
                 "caption": "An edit for the MDCPS Logo Contest...",
                 "active": false
               },
@@ -591,7 +591,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/melissa-lopez-album-cover-jpeg-2000x1000-800x400.jpg",
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-album-cover-jpeg-2000x10008.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-album-cover-jpeg-2000x100011.jpg",
                 "caption": "An edit for the front of a redord label...",
                 "active": false
               },
@@ -1665,7 +1665,7 @@
           },
           "title4": "World Traveler",
           "subtitle4": "Mobirise gives you the freedom to develop",
-          "caption4": "Since I was little I would travel around the United States of America. Very few times have I been outside the country, however the feeling of seeing new things and tasting new food from around the globe is a new experience every time I enter the next place. I got to view different cultures, as each is unique in its own way. Going on a car ride to the next state right above your home, I get to view nature within the ride and the difference between each place. I get a new feeling within eachplace, not just by the weather or the sight but by the people living and the the way that each person is unquie in its home. I get to become a part the city whenever I visit a new country or state or city.",
+          "caption4": "Since I was little I would travel with my family. getting to hop into a plane or a car to go into a new place. experiencing new cultures and spending time with my family outide my home is amzing. &nbsp;I got to view different cultures and experience life outside my own.&nbsp;",
           "button4": "<a data-app-btn=\"true\" href=\"https://mobirise.com\" class=\"btn btn-primary\">MORE</a>",
           "media5": {
             "iconFont": {
