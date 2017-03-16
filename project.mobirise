@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "personalgallery.html",
+    "currentPage": "index.html",
     "name": "Portfolio Website",
     "theme": {
       "name": "mobirise3",
@@ -206,7 +206,7 @@
             },
             "bgVideoRadio": true,
             "overlay": true,
-            "overlayOpacity": "0.4",
+            "overlayOpacity": "0.1",
             "overlayColor": "#000000",
             "showTitle": false,
             "showCaption": false
