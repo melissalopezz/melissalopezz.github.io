@@ -496,17 +496,17 @@ h6,
   font-size: 20px;
   font-family: 'Indie Flower', cursive;
 }
-#content8-2h .mbr-section-title,
-#content8-2h p {
-  text-align: right;
-  color: #fff;
-}
 #msg-box3-2e .mbr-section-title,
 #msg-box3-2e p {
   color: #000;
 }
 #msg-box3-2e .mbr-section-title {
   color: #403f3f;
+}
+#content8-2h .mbr-section-title,
+#content8-2h p {
+  text-align: right;
+  color: #fff;
 }
 #content2-2g P {
   text-align: left;
