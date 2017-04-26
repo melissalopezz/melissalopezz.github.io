@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "personalgallery.html",
     "name": "Portfolio Website",
     "theme": {
       "name": "mobirise3",
@@ -712,7 +712,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/melissa-lopez-composite-jpeg-2000x2103-800x841.jpg",
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-composite-jpeg-2000x21036.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-composite-jpeg-2000x21038.jpg",
                 "caption": "A recreation of the Avengers...",
                 "active": false
               },
@@ -742,7 +742,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/logo-color-jpeg-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/logo-color-jpeg-2000x20007.jpg",
+                "image": "@PROJECT_PATH@/assets/images/logo-color-jpeg-2000x20009.jpg",
                 "caption": "An edit for the MDCPS Logo Contest...",
                 "active": false
               },
@@ -1960,8 +1960,8 @@
           "_name": "slider3",
           "_params": {
             "autoplay": true,
-            "paddingTop": "2",
-            "paddingBottom": "0",
+            "paddingTop": "4",
+            "paddingBottom": "4",
             "timeout": "5",
             "slides": [
               {
