@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10.7",
-    "uniqCompNum": 109,
+    "uniqCompNum": 110,
     "versionPublish": "3.11.1",
     "path": "@PROJECT_PATH@",
     "favicon": "",
@@ -347,7 +347,7 @@
             "parallax": true,
             "bgImageRadio": false,
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#F2F2F2",
+            "bgColor": "#efefef",
             "bgColorRadio": true,
             "bgVideo": {
               "width": 1280,
@@ -388,6 +388,55 @@
           "title": "Recreation of Imagine Dragons, Beliver",
           "text": "<p>Online video and Youtube particularly is now more popular than cable television.</p>",
           "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://www.youtube.com/watch?v=d-TWoIPFels&amp;t=3s\" data-toolbar=\"-mbrBtnMove\">See Full Video here</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-31",
+          "_params": {
+            "imageSize": 50,
+            "paddingTop": 0,
+            "paddingBottom": 0,
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#efefef",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@THEME_PATH@/components/_images/gallery/desktop.jpg"
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "A Recreation Piece&nbsp;",
+          "text": "Solid color intro with an image on the right side. Also this block has no paddings.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
         },
         {
           "_styles": {
@@ -712,7 +761,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/melissa-lopez-composite-jpeg-2000x2103-800x841.jpg",
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-composite-jpeg-2000x21032.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-composite-jpeg-2000x21030.jpg",
                 "caption": "A recreation of the Avengers...",
                 "active": false
               },
@@ -742,7 +791,7 @@
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/logo-color-jpeg-2000x2000-800x800.jpg",
-                "image": "@PROJECT_PATH@/assets/images/logo-color-jpeg-2000x20003.jpg",
+                "image": "@PROJECT_PATH@/assets/images/logo-color-jpeg-2000x20001.jpg",
                 "caption": "An edit for the MDCPS Logo Contest...",
                 "active": false
               },
@@ -1960,12 +2009,12 @@
           "_name": "slider3",
           "_params": {
             "autoplay": true,
-            "paddingTop": "4",
-            "paddingBottom": "4",
-            "timeout": "5",
+            "paddingTop": "2",
+            "paddingBottom": "0",
+            "timeout": "4",
             "slides": [
               {
-                "active": false,
+                "active": true,
                 "image": "@PROJECT_PATH@/assets/images/melissa-lopez-part-1-the-girl-with-the-pearl-earings-2000x2000.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
@@ -2295,8 +2344,8 @@
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               },
               {
-                "active": true,
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-22-2000x2000.jpg",
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-23-2000x2000-1.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -2311,7 +2360,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-24-2000x2000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-24-2000x2000-1.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -2326,7 +2375,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-25-2000x2000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-25-2000x2000-1.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -2341,7 +2390,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-26-2000x2000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-26-2000x2000-1.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -2356,7 +2405,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-27-2000x2000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-27-2000x2000-1.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -2371,7 +2420,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-28-2000x2000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-28-2000x2000-1.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -2386,7 +2435,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-29-2000x2000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-29-2000x2000-1.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -2401,7 +2450,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-30-2000x2000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-30-2000x2000-1.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -2416,7 +2465,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-31-2000x2000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-31-2000x2000-1.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -2431,7 +2480,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-32-2000x2000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-32-2000x2000-1.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -2446,7 +2495,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-34-2000x2000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-33-2000x2000.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -2461,7 +2510,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-35-2000x2000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-34-2000x2000-1.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -2476,7 +2525,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-37-2000x2000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-36-2000x2000.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -2491,7 +2540,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-38-2000x2000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-38-2000x2000-1.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -2506,7 +2555,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-39-2000x2000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-38-2000x2000-2.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -2521,7 +2570,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-40-2000x2000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-39-2000x2000-1.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -2536,7 +2585,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-41-2000x2000.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-40-2000x2000-1.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -2551,7 +2600,7 @@
               },
               {
                 "active": false,
-                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-42-2000x2000-1.jpg",
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-41-2000x2000-1.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "overlay": false,
@@ -2561,6 +2610,21 @@
                 "title": "BOOTSTRAP SLIDER",
                 "showText": false,
                 "text": "Choose from the large selection of latest pre-made blocks - jumbotrons, hero images, parallax scrolling, video backgrounds, hamburger menu, sticky header and more.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "@PROJECT_PATH@/assets/images/melissa-lopez-the-girl-with-the-pearl-earings-part-42-2000x2000.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "overlay": false,
+                "overlayOpacity": "0.3",
+                "contentAlign": "center",
+                "showTitle": false,
+                "title": "Master Piece Reproduction",
+                "showText": false,
+                "text": "Click the arrow on the right to see each step involved in the reproduction of The Girl With The Pearl Earrings.&nbsp;",
                 "showButtons": false,
                 "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-info\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
               }
