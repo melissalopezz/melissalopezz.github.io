@@ -1,6 +1,6 @@
 {
   "settings": {
-    "currentPage": "index.html",
+    "currentPage": "Adobe Photoshop.html",
     "name": "Portfolio Website",
     "theme": {
       "name": "mobirise3",
@@ -21,7 +21,7 @@
       }
     },
     "versionFirst": "3.10.7",
-    "uniqCompNum": 110,
+    "uniqCompNum": 111,
     "versionPublish": "3.11.1",
     "path": "@PROJECT_PATH@",
     "favicon": "",
@@ -133,7 +133,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"intro.html\" aria-expanded=\"false\">INTRODUCTION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">APPLICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Adobe Photoshop\">ADOBE PHOTOSHOP</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OFFICE SUITE</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"Office Word\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">WORD&nbsp;</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">DiscussIT</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://melissalopezz.github.io/Documents/Discuss IT Topic 6.pdf\">DiscussIT 6<br></a></div></div></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office PowerPoint\">POWERPOINT</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Illustrator\" aria-expanded=\"false\">ADOBE ILLUSTRATOR</a><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">ADOBE PREMIERE</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.youtube.com/watch?v=d-TWoIPFels&amp;t=6s\">Imagine Dragons - Believer // Make the Cut Entry<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.youtube.com/watch?v=3RRXppVFhhE\">Intro Video About Me</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.youtube.com/watch?v=A2HjYYGUyjI\">A Thousand Million Reasons&nbsp;</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE DREAM WEAVER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">FINAL CUT PRO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">123D</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">INDUSTRY CERTIFICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED PHOTOSHOP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED ILLUSTROTOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">TRANSCRIPT</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">REFERENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">MR. PATE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">AP TEACHERS</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"personalgallery.html\" aria-expanded=\"false\">PERSONAL GALLERY</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"Contact\">Contact</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"intro.html\" aria-expanded=\"false\">INTRODUCTION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">APPLICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Adobe Photoshop\">ADOBE PHOTOSHOP</a><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">OFFICE SUITE</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"Office Word\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">WORD&nbsp;</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">DiscussIT</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://melissalopezz.github.io/Documents/Discuss IT Topic 6.pdf\">DiscussIT 6<br></a></div></div></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office PowerPoint\">POWERPOINT</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Illustrator\" aria-expanded=\"false\">ADOBE ILLUSTRATOR</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">ADOBE PREMIERE</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.youtube.com/watch?v=d-TWoIPFels&amp;t=6s\">Imagine Dragons - Believer // Make the Cut Entry<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.youtube.com/watch?v=3RRXppVFhhE\">Intro Video About Me</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.youtube.com/watch?v=PB5x389Q7LY&amp;t=2s\">A Thousand Million Reasons&nbsp;</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE DREAM WEAVER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">FINAL CUT PRO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">123D</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">INDUSTRY CERTIFICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED PHOTOSHOP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED ILLUSTROTOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">TRANSCRIPT</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">REFERENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">MR. PATE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">AP TEACHERS</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"personalgallery.html\" aria-expanded=\"false\">PERSONAL GALLERY</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"Contact\">Contact</a></li>"
         },
         {
           "_tags": [
@@ -747,7 +747,7 @@
             }
           },
           "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"intro.html\" aria-expanded=\"false\">INTRODUCTION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">APPLICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Adobe Photoshop\">ADOBE PHOTOSHOP</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">OFFICE SUITE</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"Office Word\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">WORD&nbsp;</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">DiscussIT</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://melissalopezz.github.io/Documents/Discuss IT Topic 6.pdf\">DiscussIT 6<br></a></div></div></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office PowerPoint\">POWERPOINT</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Illustrator\" aria-expanded=\"false\">ADOBE ILLUSTRATOR</a><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" aria-expanded=\"true\" data-toggle=\"dropdown-submenu\">ADOBE PREMIERE</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.youtube.com/watch?v=d-TWoIPFels&amp;t=6s\">Imagine Dragons - Believer // Make the Cut Entry<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.youtube.com/watch?v=3RRXppVFhhE\">Intro Video About Me</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.youtube.com/watch?v=PB5x389Q7LY&amp;t=2s\">A Thousand Million Reasons&nbsp;</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE DREAM WEAVER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">FINAL CUT PRO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">123D</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">INDUSTRY CERTIFICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED PHOTOSHOP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED ILLUSTROTOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">TRANSCRIPT</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">REFERENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">MR. PATE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">AP TEACHERS</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"personalgallery.html\" aria-expanded=\"false\">PERSONAL GALLERY</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"Contact\">Contact</a></li>"
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\"></a></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"intro.html\" aria-expanded=\"false\">INTRODUCTION</a></li><li class=\"nav-item dropdown open\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">APPLICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Adobe Photoshop\">ADOBE PHOTOSHOP</a><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">OFFICE SUITE</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"Office Word\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">WORD&nbsp;</a><div class=\"dropdown-menu dropdown-submenu\"><div class=\"dropdown open\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" data-toggle=\"dropdown-submenu\" aria-expanded=\"true\">DiscussIT</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://melissalopezz.github.io/Documents/Discuss IT Topic 6.pdf\">DiscussIT 6<br></a></div></div></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Office PowerPoint\">POWERPOINT</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"Illustrator\" aria-expanded=\"false\">ADOBE ILLUSTRATOR</a><div class=\"dropdown\"><a data-app-btn=\"true\" class=\"dropdown-item dropdown-toggle\" href=\"#\" aria-expanded=\"false\" data-toggle=\"dropdown-submenu\">ADOBE PREMIERE</a><div class=\"dropdown-menu dropdown-submenu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.youtube.com/watch?v=d-TWoIPFels&amp;t=6s\">Imagine Dragons - Believer // Make the Cut Entry<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.youtube.com/watch?v=3RRXppVFhhE\">Intro Video About Me</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://www.youtube.com/watch?v=PB5x389Q7LY&amp;t=2s\">A Thousand Million Reasons&nbsp;</a></div></div><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">ADOBE DREAM WEAVER</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">FINAL CUT PRO</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\" aria-expanded=\"false\">123D</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">INDUSTRY CERTIFICATIONS</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED PHOTOSHOP</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">INDUSTRY CERITIFIED ILLUSTROTOR</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">TRANSCRIPT</a></div></li><li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" href=\"https://mobirise.com/\" data-toggle=\"dropdown-submenu\" aria-expanded=\"false\">REFERENCES</a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">MR. PATE</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"#\">AP TEACHERS</a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"personalgallery.html\" aria-expanded=\"false\">PERSONAL GALLERY</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-secondary-outline btn-secondary\" href=\"Contact\">Contact</a></li>"
         },
         {
           "_inherit": "gallery1",
@@ -820,14 +820,84 @@
                 "active": false
               },
               {
-                "tags": "2015",
+                "tags": "2016",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "thumb": "@PROJECT_PATH@/assets/images/inner-album-cover-jpeg-2000x1000-800x400.jpg",
                 "image": "@PROJECT_PATH@/assets/images/inner-album-cover-jpeg-2000x1000.jpg",
                 "caption": "An edit made from the lyrics of the Rolling Stones and the logo of the Rolling Stones made into the back of a record...",
+                "active": false
+              },
+              {
+                "tags": "ShowSlides",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/best-short-film-anime-combo-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/best-short-film-anime-combo-2000x1125.jpg",
+                "caption": "An edit made from the lyrics of the Rolling Stones and the logo of the Rolling Stones made into the back of a record...",
                 "active": true
+              },
+              {
+                "tags": "ShowSlides",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/best-short-film-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/best-short-film-2000x1125.jpg",
+                "caption": "An edit made from the lyrics of the Rolling Stones and the logo of the Rolling Stones made into the back of a record...",
+                "active": false
+              },
+              {
+                "tags": "ShowSlides",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/best-student-animation-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/best-student-animation-2000x1125.jpg",
+                "caption": "An edit made from the lyrics of the Rolling Stones and the logo of the Rolling Stones made into the back of a record...",
+                "active": false
+              },
+              {
+                "tags": "ShowSlides",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/best-student-original-concept-drawn-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/best-student-original-concept-drawn-2000x1125.jpg",
+                "caption": "An edit made from the lyrics of the Rolling Stones and the logo of the Rolling Stones made into the back of a record...",
+                "active": false
+              },
+              {
+                "tags": "ShowSlides",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/best-student-original-concept-graphics-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/best-student-original-concept-graphics-2000x1125.jpg",
+                "caption": "An edit made from the lyrics of the Rolling Stones and the logo of the Rolling Stones made into the back of a record...",
+                "active": false
+              },
+              {
+                "tags": "ShowSlides",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/closing-tittle-slides-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/closing-tittle-slides-2000x1125.jpg",
+                "caption": "An edit made from the lyrics of the Rolling Stones and the logo of the Rolling Stones made into the back of a record...",
+                "active": false
+              },
+              {
+                "tags": "ShowSlides",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/opening-tittle-slides-2000x1125-800x450.jpg",
+                "image": "@PROJECT_PATH@/assets/images/opening-tittle-slides-2000x1125.jpg",
+                "caption": "An edit made from the lyrics of the Rolling Stones and the logo of the Rolling Stones made into the back of a record...",
+                "active": false
               }
             ],
             "spacing": "1",
